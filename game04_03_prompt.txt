@@ -1,0 +1,21 @@
+Using Python, write a computer game
+1. Create window, size is 1024*1024
+2. Background setting
+    a) When score <= 2, background is used subfolder background\bg01.jpeg, and the background music is used subfolder  sound\background01.mp3
+    b) When 2 < score <= 4, background is used subfolder background\bg02.jpeg, and the background music is used subfolder  sound\background02.mp3
+    c) When score > 4, background is used subfolder background\bg03.jpeg, and the background music is used subfolder  sound\background03.mp3
+
+3. Player object is used subfolder pic\player.png, setting size is 150* 150
+4. Enemies objects are used subfolder pic\enemy01.png, pic\enemy02.png, pic\enemy03.png, pic\enemy04.png, pic\enemy05.png, pic\enemy06.png, their sizes are 120*120
+5. When score >4, new enemies are used subfolder pic\enemy31.png, pic\enemy32.png, pic\enemy33.png, their sizes are 250* 250
+
+4. The user can control 
+    a) player jet plane, by pressing up, down, left and right arrow 
+    b) emitted the bullet by pressing "SPACE"
+    c) when score >4, the player can emit 3 bullets at the same times by pressing "SPACE" one time.
+5. If jet plane touches any enemy, the game is over.   Then Display "Press R to restart a game" and play a sound, used folder sound\gameover.mp3.
+6. If enemies (enemy01.png, enemy02.png, enemy03.png, enemy04.png, enemy05.png, enemy06.png) touches bullets, then user can get 1 score and play a sound, used folder sound\bingo1.mp3.  
+7. When score>4, new enemies (enemy31.png, enemy32.png, enemy33.png) touches bullets 5 times, the user can get 1 score and play a sound, used folder sound\bingo2.mp3.  Each time touch the bullet, the size of them is 0.9 time.
+
+8. The other objects are come from any directions.
+9. If user gets 4 score, the speed of jet plane can increase 1.5 times.
